@@ -35,8 +35,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		case 2:
 		std::cout << "List : ";
 		    *list;
-			
-
+			list->print_back();
 			list->print();
 			break;
 		case 3:
